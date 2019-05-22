@@ -1,0 +1,5 @@
+# Loop-Optimization-for-Prediction-and-Decisions
+
+  Our work provides a data-to-decision optimization framework for an early-stopping maintenance problem based on remaining useful lifetime (RUL) prediction. In the classical condition-based maintenance framework for optimal decisions, sequentially three tasks are involved, i.e. RUL prediction, uncertainty quantification, and maintenance decision optimization. In such a framework, the information flow starts from the data-based prediction, and stops at the maintenance decision. This paper reveals that the decision feedback can be conveyed back to the predictor design, and a closed-loop optimization framework is established.
+
+  The insight of this work is to model the mutual influence between prediction, validation, and decision explicitly, which leads to three sub-tasks: empirical decision, surrogate decision, and surrogate Wiener propagation modeling.  These three sub-tasks form a loop system such that the RUL predictor and the early-stopping threshold can be jointly optimized. The solution is validated in a turbofan engine degradation use case using a long short-term memory network predictor.
